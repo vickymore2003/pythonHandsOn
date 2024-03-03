@@ -12,4 +12,14 @@ def show(self):
     print("age= ",self.age)
     print("address= ",self.address)
     print("salary= ",self.salary)
-    da=
+    da=(self.salary*10)/100
+    gs=self.salary+da
+    print("Salary= ",gs)
+
+a= input("Enter the name ")
+b=int(input("Enter the age "))
+c=input("Enter the address ")
+d=int(input("Enter the salary "))
+
+e= Employee(a,c,b,d)
+e.show()
